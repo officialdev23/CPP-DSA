@@ -3,16 +3,29 @@ using namespace std;
 
 int main()
 {
-    
-    int i, no;
+    // for loop
+    // int i, no;
 
-    cout<<"Enter a number";
-    cin>>no;
+    // cout<<"Enter a number";
+    // cin>>no;
 
-    for(i=0;i<=no;i++)
+    // for(i=0;i<=no;i++)
+    // {
+    //     cout<<i<<endl;
+    // }
+
+    //take input from users until sum reaches 20
+
+    int no,sum=0;
+
+    while(sum<20)
     {
-        cout<<i<<endl;
+        cout<<"Enter your number";
+        cin>>no;
+
+        sum = sum+no;
     }
 
+    cout<<"The sum of numbers is: "<<sum;
     return 0;
 }
